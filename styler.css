@@ -1,0 +1,65 @@
+body{
+	background-image: url(fondo.jpg)
+}
+.t{
+	position: absolute;
+	top: 5%;
+	font-size: 760%;
+	font-family: titulo4;
+	left: 38.5%;
+	z-index: 2;
+	color: #D7BDE2;
+}
+
+.tt{
+	position: absolute;
+	top: 9%;
+	font-size: 460%;
+	font-family: titulo5;
+	left: 44%;
+	z-index: 2;
+	color: #000000;
+}
+
+.img1{
+	position: absolute;
+	top: 25%;
+	width: 45%;
+	height: 68%;
+	left: 3%;
+	background-color: #ffffff;
+	border-style: double;
+	color: #D7BDE2;
+	border-width: 10px;
+}
+.img2{
+	position: absolute;
+	top: 99%;
+	width: 60%;
+	height: 45%;
+	left: 23%;
+	background-color: #ffffff;
+	border-style: double;
+	color: #A2EDFA;
+	border-width: 10px;
+}
+.img3{
+	position: absolute;
+	top: 173%;
+	width: 45%;
+	height: 68%;
+	left: 3%;
+	background-color: #ffffff;
+	border-style: double;
+	color: #C1FAA2;
+	border-width: 10px;
+}
+@font-face{
+	font-family: titulo5;
+	src: url(titulo5.otf);
+} 
+
+@font-face{
+	font-family: titulo4;
+	src: url(titulo4.ttf);
+}
